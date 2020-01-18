@@ -1,6 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
+/// <summary>
+/// Make a program to read an integer N and then the data (id, name and salary) of N employees. 
+/// There should be no repetition of id. Then increase the salary by X percent for a specific employee.
+/// For this, the program must read an id and X value.If the id does not exist, display a message and abort the operation.
+/// At the end, show the updated list of employees. using encapsulation to not allow the salary to be changed freely
+/// </summary>
+
 namespace ListEmployee
 {
     class Program
